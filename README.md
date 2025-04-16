@@ -1,2 +1,2 @@
 # my_page
- my-page
+ This is a portfolio of my most recent projects. Thanks to #Smoljames
