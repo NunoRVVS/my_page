@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuno Web Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fanta_styles.css">
+    <!-- font awasome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a href="/">Nuno R Soares</a>
+        <nav>
+            <a target="_blank" href="https://github.com/NunoRVVS"><i class="fa-brands fa-square-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/nunorsoares-web-developer/"><i class="fa-brands fa-linkedin"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="intro-header"></div>
+            <h1>Konnichua! I'm Nuno....</h1>
+            <p>Web Developer</p>
+            <h5 class="intro-description">
+                An aspiring web developer who took a career break to reskill and transition into the field. Completed a Front-End Developer Professional Course and an internship, followed by a 9-week intensive web development bootcamp.
+                Brings over 10 years of international work experience in the tourism sector. Passionate about continuous learning and creating impactful digital experiences.
+            </h5>
+            <div class="links-container">
+                <a target="_blank" href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i> Email me</a>
+                <a target="_blank" href="https://github.com/NunoRVVS">GitHub</a>
+                <a target="_blank" href="https://www.linkedin.com/in/nunorsoares-web-developer/">LinkedIn</a>
+            </div>
+            <div id="play-game">
+                <button onclick="playGame()">Do you wanna play a game???</button>
+            </div>
+            <div style="display: none;" class="color-div">
+                <h4>Pick a color</h4>
+                <p style="display: none;">Great... now it's ruined!</p>
+                <input type="color" id="color-picker" onchange="changeColor()" value="#0084ff" />
+                <button style="display: none;" onclick="resetColor()">Reset</button>
+            </div>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Javascript</td>
+                        <td>ReactJS | React Native | NextJS | NodeJS</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>Data Analysis | PostgreSQL </td>
+                    </tr>
+                    <tr>
+                        <td>Web</td>
+                        <td>TailwindCSS | Bootstrap | GIT/ GHUB | Netlify | Cloudinary | Heroku | Azure</td>
+                    </tr>
+                    <tr>
+                        <td>Design</td>
+                        <td>Figma | Photoshop | Figma</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Latest Projects</h2>
+            <div class="cards-grid">
+                <div class="project-card">
+                    <div>
+                        <p>March 12, 2025</p>
+                        <h4>Velogram</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>React</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>FantCSS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Javascript</p>
+                            </div>
+                        </div>
+                        <p>The 30 Simple Workouts Program</p>
+                        <div class="project-links">
+                            <a target="_blank" href="https://velo-gram.netlify.app/">Live</a>
+                            <a target="_blank" href="https://github.com/NunoRVVS/velogram">GitHub</a>
+                        </div>
+                    </div>   
+                    <div class="img-div">
+                        <img src="/my_page/public/fantacss.png" alt="nunorsoares-thumbnail" class="big-img">
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div>
+                        <p>January 30, 2025</p>
+                        <h4>Free-chronicle</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>Javascript</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>TailwindCSS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>React</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>LLM</p>
+                            </div>
+                        </div>
+                        <p>This will be a hub for all things learning to code and landing a job as a web developer</p>
+                        <div class="project-links">
+                            <a target="_blank" href="https://freechronicle.netlify.app/">Live</a>
+                            <a target="_blank" href="https://github.com/NunoRVVS/free-chronicle">GitHub</a>
+                        </div>
+                    </div>   
+                    <div class="img-div">
+                        <img src="/my_page/public/free-chronicle.png" alt="nunorsoares-thumbnail" class="big-img">
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div>
+                        <p>January 18, 2025</p>
+                        <h4>Spartan-fit-gym</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>Javascript</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>TailwindCSS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>React</p>
+                            </div>
+                        </div>
+                        <p>This app has been built to test some react methodologies. The goal was to see how components can be built up and interact with each other.</p>
+                        <div class="project-links">
+                            <a target="_blank" href="/">Live</a>
+                            <a target="_blank" href="/">GitHub</a>
+                        </div>
+                    </div>   
+                    <div class="img-div">
+                        <img src="/my_page/public/Spartan_Fit.png" alt="nunorsoares-thumbnail" class="big-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>By <a href="">NunoRSoares</a> ⭐ the repo on <a target="_blank" href="">GitHub</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
