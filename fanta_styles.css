@@ -18,7 +18,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-/* :root {
+:root {
     --background-primary: white;
     --background-secondary: '';
     --background-tertiary: #dbeafe;
@@ -63,7 +63,7 @@
     --highlight-border-radius: 0.5rem;
 
     --text-selection: '';
-} */
+}
 
 @media (prefers-color-scheme: dark) {
     :root {
