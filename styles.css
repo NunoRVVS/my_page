@@ -91,7 +91,7 @@ section {
     gap: 1rem;
     padding: 1rem;
     border-radius: 0.5rem;
-    box-shadow: 0 0 10px rgba(237, 237, 237, 0.397);
+    box-shadow: 0 0 10px rgba(133, 131, 131, 0.397);
 }
 
 .project-card>div:first-of-type {
@@ -119,7 +119,7 @@ section {
 }
 
 .tech-list p {
-    font-size: 0.8rem;
+    font-size: rem;
 }
 
 @media (min-width: 640px) {
