@@ -20,7 +20,7 @@ function changeColor() {
 }
 
 function resetColor() {
-    body.style.background = '#05070f';
+    body.style.background = 'light-dark(#fff, #444)';
     colorInput.style.display = 'block';
     playBtn.style.display = 'block';
 
